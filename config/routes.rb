@@ -1,7 +1,8 @@
 Shop::Application.routes.draw do
   get "shop/index"
 
- root :to => 'shop#index'
+  root :to => 'shop#index'
+  resources :products
 
   # See how all your routes lay out with "rake routes"
 
