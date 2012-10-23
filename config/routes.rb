@@ -1,5 +1,4 @@
 Shop::Application.routes.draw do
-  get "shop/index"
 
   root :to => 'shop#index'
   resources :products
