@@ -2,6 +2,7 @@ Shop::Application.routes.draw do
 
   root :to => 'shop#index'
   resources :products
+  resources :categories
 
   # See how all your routes lay out with "rake routes"
 

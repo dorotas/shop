@@ -1,0 +1,11 @@
+<b> Kategoria: <%= @category.name %> </b>
+<table>
+  <% progucts.each do |product| %>
+    <tr>
+      <td><% link_to "#{product.name}", product %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to 'Powrót', :back %></p>
+<p><%= link_to 'Strona główna', :root %></p>
