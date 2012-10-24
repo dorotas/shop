@@ -1,6 +1,6 @@
 <h1>Sklep z zabawkami</h1>
 
-<h2>Kategorie:</h2>
+<h2>Kategorie</h2>
 
 <table>
   <% @categories.each do |category| %>
@@ -14,8 +14,8 @@
 
 <table>
   <% @products.each do |product| %>
-    <tr>
-      <td><%= link_to "#{product.name}", product %></td>
-    </tr>
+      <tr>
+        <td><%= link_to "#{product.name}", product %></td>
+      </tr>
   <% end %>
 </table>

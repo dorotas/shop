@@ -1,8 +1,8 @@
 <b> Kategoria: <%= @category.name %> </b>
 <table>
-  <% progucts.each do |product| %>
+  <% @products.each do |p| %>
     <tr>
-      <td><% link_to "#{product.name}", product %></td>
+      <td><% link_to "#{p.name}", p %></td>
     </tr>
   <% end %>
 </table>

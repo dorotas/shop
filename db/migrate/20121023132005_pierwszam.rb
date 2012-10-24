@@ -4,6 +4,7 @@ class Pierwszam < ActiveRecord::Migration
       product.string :name
       product.integer :price
       product.text :description
+      product.integer :category_id
       product.timestamps
     end
   end
