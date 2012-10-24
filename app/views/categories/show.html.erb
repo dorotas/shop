@@ -1,11 +1,11 @@
-<b> Kategoria: <%= @category.name %> </b>
+<h1><%= @category.name %></h1>
 <table>
-  <% @products.each do |p| %>
-    <tr>
-      <td><% link_to "#{p.name}", p %></td>
-    </tr>
+  <% @products.each do |product| %>
+      <tr>
+        <td><%= link_to "#{product.name}", product %></td>
+      </tr>
   <% end %>
 </table>
 
-<p><%= link_to 'Powrót', :back %></p>
-<p><%= link_to 'Strona główna', :root %></p>
+<p><%= link_to 'Powrot', :back %></p>
+<p><%= link_to 'Strona glowna', :root %></p>
