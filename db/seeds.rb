@@ -7,7 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 
-product = Product.create :name => 'HAPE Alfabet puzzle', :price => 4766, :description => 'Kolorowe i miakkie'
+product = Product.create :name => 'HAPE Alfabet puzzle', :price => 4766, :description => 'Kolorowe i miekkie'
 product = Product.create :name => 'HAPE Zestaw Muzyczny', :price => 9763, :description => 'Kolorowe i grajace'
 product = Product.create :name => 'HAPE Melodyjne Tamburyno', :price => 4881, :description => 'Kolorowe i melodyjne'
 product = Product.create :name => 'CZUCZU Znam Literki', :price => 2865, :description => 'Poznaj literaki'
