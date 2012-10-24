@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f44d1e0-2029-4d72-b7a0-005ae5c3a999" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20121024190936_add_categories.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/categories/show.html.erb" afterPath="$PROJECT_DIR$/app/views/categories/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shop/index.html.erb" afterPath="$PROJECT_DIR$/app/views/shop/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20121023132005_pierwszam.rb" afterPath="$PROJECT_DIR$/db/migrate/20121023132005_pierwszam.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
     </list>
     <ignored path="shop.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,7 +52,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/shop/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="21" selection-start="359" selection-end="359" vertical-scroll-proportion="-13.730769">
+            <state line="21" column="0" selection-start="359" selection-end="359" vertical-scroll-proportion="-13.730769">
               <folding />
             </state>
           </provider>
@@ -650,7 +647,11 @@
       <created>1350995768881</created>
       <updated>1350995768881</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="problem z wyswietlaniem kategorii&#10;">
+      <created>1351109115658</created>
+      <updated>1351109115658</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -712,7 +713,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="problem z migracjami" />
+    <option name="LAST_COMMIT_MESSAGE" value="problem z wyswietlaniem kategorii&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -728,6 +729,7 @@
     <MESSAGE value="db" />
     <MESSAGE value="problemy" />
     <MESSAGE value="problem z migracjami" />
+    <MESSAGE value="problem z wyswietlaniem kategorii&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -817,7 +819,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shop/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="21" selection-start="359" selection-end="359" vertical-scroll-proportion="-13.730769">
+        <state line="21" column="0" selection-start="359" selection-end="359" vertical-scroll-proportion="-13.730769">
           <folding />
         </state>
       </provider>
